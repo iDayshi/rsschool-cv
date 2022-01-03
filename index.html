@@ -11,48 +11,103 @@
 <body>
     <header class="header">
         <div class="header_inner">
-            <nav class="nav">
-                <a class="nav_link" href="#">About me</a>
-                <a class="nav_link" href="#">Skills</a>
-                <a class="nav_link" href="#">Key strengths</a>
-                <a class="nav_link" href="#">Code example</a>
-                <a class="nav_link" href="#">My projects</a>
-                <a class="nav_link" href="#">Contact</a>
-                <a class="nav_link" href="#">Education</a>
+            <nav class="navigation">
+                <ul class="nav_list">
+                    <li><a class="nav_link" href="#about_me">About me</a></li>
+                    <li><a class="nav_link" href="#skills">Skills</a></li>
+                    <li><a class="nav_link" href="#strengths">Strengths</a></li>
+                    <li><a class="nav_link" href="#code">Code</a></li>
+                    <li><a class="nav_link" href="#projects">Projects</a></li>
+                    <li><a class="nav_link" href="#contact">Contact</a></li>
+                    <li><a class="nav_link" href="#education">Education</a></li>
+                </ul>
             </nav>
         </div>
     </header>
     <main>
         <div class="double">
             <article>
+                <h2 class="hid">RS School the Best!!</h2>
                 <div class="logo"><img src="20210922_132733.jpg" alt="Maksim Kalatsei"></div>
-                <h2>Левая сторона</h2>
+                <section class="left_board" id="contact">
+                    <h2>Contact</h2>
+                    <ul>
+                        <li>Phone:
+                            <br>
+                            <a href="tel:+375292335388">+375 (29) 233-53-88</a>
+                        </li>
+                        <li>Telegram:
+                            <a href="tg:@Dayshi">Dayshi</a>
+                        </li>
+                        <li>Discord:
+                            <a href="Dayshi#5724">Dayshi#5724</a>
+                        </li>
+                        <li>Email:
+                            <a href="mailto:idayshi@gmail.com">iDayshi@gmail.com</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="" id="education">
+                    <h2>Education</h2>
+                    <p>Mozyr State Polytechnic College (2007-2011)
+                        Faculty of Civil Engineering
+                    </p>
+                    <p>Belarusian National Technical University (2018-2020) 
+                        Faculty of Energy</p>
+                </section>
             </article>
             <aside>
-                <section class="right">
+                <div class="right">
                     <h1>Kalatsei Maxim</h1>
                     <p>Beginer Front-End developer</p>
-                    <h1>Правая Сторона</h1>
-                </section>
-                <section class="title_section">
+                </div>
+                <section class="title_section" id="about_me">
                     <h2>About me</h2>
-                    <p>Lorem ipsum dolor sit amet.</p>
+                        <p>I like to disassemble, assemble and configure something.I can build, configure, solve problems with computers.
+                        I like to play computer games, , listen to music of different genres.</p>
                 </section>
-                <section class="title_section">
+                <section class="title_section" id="skills">
                     <h2>Skills</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <ul>
+                            <li>Engineering</li>
+                            <li>Initial knowledge of JS.</li>
+                            <li>Initial knowledge of HTML/CSS.</li>
+                            <li>English - A1+.</li>
+                        </ul>
                 </section>
-                <section class="title_section">
+                <section class="title_section" id="strengths">
                     <h2>Key strengths</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <ul>
+                            <li>Hardworking</li>
+                            <li>Quick learner</li>
+                            <li>Punctuality</li>
+                        </ul>
                 </section>
-                
+                <section class="title_section" id="code">
+                    <h2>Code</h2>
+                        <pre>
+                            <code>
+                             function typeOfSum(a, b) {
+                                return typeof(a + b)
+                              }
+                            </code>
+                        </pre>
+                </section>
+                <section class="title_section" id="projects">
+                    <h2 >Projects</h2>
+                    <div class="logo_projects">
+                        <a href="https://idayshi.github.io/sushi/index.html" target="_blank"><img src="sushi.jpg" alt="SUSHI"></a>
+                        <p>Сайт по книге: "Html и css. 25 уроков для начинающих"</p>
+                    </div>
+                </section>
             </aside>
         </div>
     </main>
-    <footer class="podval">
-        <div>
-
+    <footer>
+        <div class="footer_info">
+            <a href="https://github.com/iDayshi" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1200px-Octicons-mark-github.svg.png" alt="GitHub"></a>
+            <p class="year_now">2022</p>
+            <a href="https://rs.school/js/" target="_blank"><img src="https://rs.school/images/rs_school_js.svg" alt="RS School"></a>
         </div>
     </footer>
 </body>
